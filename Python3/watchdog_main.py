@@ -167,8 +167,8 @@ def Startup():
     global G_device_attributes_dict
     
     #your client will receive an email with their organization keys.
-    org_key1 = "porg_akA07D6oeNHAWsmv1"
-    org_key2 = "uorg_rGzw9POGfhzck3V7u"
+    org_key1 = ""
+    org_key2 = ""
     
     device_serial_number = "12341235acd"
     device_mac_address = "14:B1:C8:00:8E:2F"
