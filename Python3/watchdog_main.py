@@ -35,14 +35,14 @@ def processTvGeneralCommand(wcommand=None,device_id=None,attribute_id=None):
 def processTvChannelCommand(wcommand=None,device_id=None,attribute_id=None):
     #add your logic to send a command to the TV here, normally feedback would be sent to DGnet watchdog after querying the device
     G_watchdog_object.instantUpdateDeviceAttribute(G_device_attributes_dict['tv/channel'], 
-                                                      wcommand, 
+                                                      str(wcommand), 
                                                        'processTvGeneralCommand/channel')
     return
 
 def processTvVolumeCommand(wcommand=None,device_id=None,attribute_id=None):
     #add your logic to send a command to the TV here, normally feedback would be sent to DGnet watchdog after querying the device
     G_watchdog_object.updateDeviceAttribute(G_device_attributes_dict['tv/volume'], 
-                                                      wcommand + ' Percent', 
+                                                      str(wcommand) + ' Percent', 
                                                        'processTvGeneralCommand/volume')
     return
 
