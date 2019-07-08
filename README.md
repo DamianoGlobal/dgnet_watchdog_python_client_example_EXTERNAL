@@ -1,2 +1,2 @@
-# DGnet-Watchdog-Imag-client
-DGnet Watchdog for Imag systems noc
+# DGnet-Watchdog-example client
+DGnet Watchdog python3 example
